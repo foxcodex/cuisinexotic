@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css3?familly=Roboto:wght@300;400;500;700&display=swap');
+/* (*) indicates the universal selector */
+*{
+    /* Set the font style to Roboto here */
+        margin-top: 0px;
+        font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: medium;
+        /* Set the margin and padding automatically */
+        margin-left: auto;
+        margin-right: auto;
+}
+
+:root {
+    --blue: #2a2185;
+    --white: #fff;
+    --grayWhite: #f5f5f5;
+    --gray: #999;
+    --black: #222;
+    --cyan: lightcyan;
+    --bwood: burlywood;
+    --green: green;
+}
+
+h1,
+h2, 
+h3, 
+h4,
+h5, 
+h6 {
+    color: var(--blue);
+    font-family: 'Roboto', sans-serif;
+} 
+
+.iconstyle{
+    color:blue;
+}
+
+#mainheader{
+    background-color: var(--blue);
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+#logo-div{
+    width: 50%;
+    min-height: 85px;
+    float: left;
+    line-height: 100px;
+    padding-left: 2%;
+    color: var(--white);
+    margin-top: 5px;
+}
+
+
